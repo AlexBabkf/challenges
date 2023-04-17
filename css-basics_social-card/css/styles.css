@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.myaccount {
+  color: tan;
+}
+
+.repos {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+button {
+  color: rgb(54, 169, 189);
+  border: none;
+  background-color: white /*unset, transparent*/;
+}
+
+body {
+}
+
+article {
+  border-radius: ;
+}
