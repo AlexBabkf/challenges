@@ -24,11 +24,17 @@ form.addEventListener("submit", (event) => {
   let result;
   const option = event.target;
 
-  let a = parseInt(option.numberA.value);
-  let b = parseInt(option.numberB.value);
+  // let a = parseInt(option.numberA.value);
+  // let b = parseInt(option.numberB.value);
+
+  // const formData = new FormData(event.target);
+  // formData.get("value");
+  // cl = Object.fromEntries(formData);
+  // console.log(cl.operator);
+  // console.log(cl);
 
   // --v-- write your code here --v--
-
+  console.log(option.elements);
   if (option.addition.checked) {
     result = add(a, b);
   } else if (option.subtraction.checked) {
